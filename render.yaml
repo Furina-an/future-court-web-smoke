@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: future-court-web-smoke
+    runtime: static
+    buildCommand: echo "Godot Web build already exported"
+    staticPublishPath: ./web
+    headers:
+      - path: /*
+        name: Access-Control-Allow-Origin
+        value: "*"
+      - path: /*
+        name: Cross-Origin-Resource-Policy
+        value: cross-origin
