@@ -1,0 +1,10 @@
+edge-profile*/
+local-screenshot*.png
+cdp-after-wait.png
+cdp-check.mjs
+cdp-handoff.mjs
+mock-host.html
+serve-cors.py
+iframe-test.html
+*.log
+.tmp-*

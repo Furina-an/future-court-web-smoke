@@ -1,0 +1,12 @@
+{
+  "schema": "iw-global-items-v1",
+  "items": [
+    {
+      "id": "futurecourt_ledger_3401",
+      "name": "第 3401 行账本副本",
+      "type": "token",
+      "desc": "一页会替每句话寻找理由的账本。第 3401 行始终空白。",
+      "effect": { "stat": "sanity", "value": 1, "trigger": "on_enter" }
+    }
+  ]
+}
